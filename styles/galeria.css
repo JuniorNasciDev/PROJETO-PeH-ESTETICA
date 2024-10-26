@@ -1,0 +1,61 @@
+
+
+
+
+.title-galeria{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.line-galeria{
+    opacity: 0.3;
+    
+}
+
+.box-button{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-galeria{
+    background: none;
+    color: var(--branco);
+    border: none;
+    padding: 15px 10px;
+    font-size: 12px;
+    opacity: 0.8;
+    border-top: 1px solid transparent;
+}
+
+.box-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--branco);
+    padding: 2px 0px;
+}
+
+.img-window{
+    width: 32.7%;
+    margin-bottom: 0px;
+}
+
+.meio{
+    margin: 1px 0px;
+}
+
+.link-galeria{
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+    color: white;
+}
+
+.img-galeria{
+    width: 100%;
+    height: 130px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>PeH Acessorios Auto</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="box-frete">
+            <img class="icon-truck" src="assets/header/Truck.svg" alt="caminhão">
+            <p class="text-frete">Frete Gratis compras acima de R$50,00</p>
+            <a class="link-frete" href="#">saiba mais</a>
+        </div>
+
+      <div class="box-nav">
+
+        <div class="menu-bruguer">
+            <input type="checkbox" id="menu-burguer">
+            <label class="menu-burguer" for="menu-burguer">
+                <img class="menu-burguer-ico" src="assets/header/menu-burguer-ico.svg" alt="">
+            </label>
+
+            <div class="menu-open">
+                <label class="title-menu-burguer" for="menu-burguer">menu</label>
+                <ul class="menu-list">
+                    <li class="menu-list-item">
+                        <a class="menu-list-link" href="pages/sobre.html">SOBRE NÓS</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a class="menu-list-link" href="pages/galeria.html">GALERIA</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a class="menu-list-link" href="pages/catalogo.html">CATALOGO DE PRODUTOS</a>
+                    </li>
+                    <li class="menu-list-item">
+                        <a class="menu-list-link" href="pages/localizacao.html">LOCALIZAÇÃO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <a class="link-logo" href="#">
+            <div class="box-logo">
+                <p class="logo-text-title">PeH</p>
+                <p class="logo-text">Acessórios Automotivos</p>
+            </div>
+        </a>
+        <a href="pages/carrinho.html">
+            <img src="assets/header/carrinho-icon.svg" alt="carrinho">
+        </a>
+      </div>
+    </header>
+
+    <section class="home">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/banner/banner1.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/banner/banner2.png" alt="">
+              </div><div class="swiper-slide">
+                <img src="assets/banner/banner3.png" alt="">
+              </div>
+              <!-- Adicione mais slides se necessário -->
+            </div>
+            <!-- Paginação (bolinhas) -->
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="box-home-text">
+            <div class="car">
+                <img class="img-home-ico car-X" src="assets/banner/People in Car.svg" alt="">
+            </div>
+            <h2 class="home-title">Eleve o estilo do seu carro ao proximo nivel!</h2>
+            <div class="box-icos-home">
+                <img src="assets/banner/Dispenser.svg" alt="" class="img-home-ico">
+                <img src="assets/banner/Machine Wash Cold.svg" alt="" class="img-home-ico">
+                <img src="assets/banner/Water.svg" alt="" class="img-home-ico">
+                <img src="assets/banner/Anime Emoji.svg" alt="" class="img-home-ico">
+            </div>
+          </div>
+          
+          <button class="btn-action-home">Torne seu carro Inesquecivel</button>
+          <a class="orcamento-link-home" href="#">Realize já seu orçamento</a>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/banner.js"></script>
+</body>
+</html>

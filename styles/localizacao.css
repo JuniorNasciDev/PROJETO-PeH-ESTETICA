@@ -1,0 +1,47 @@
+
+
+
+.title-local{
+    font-size: 32px;
+    text-align: center;
+    margin: 2em 0em 0.5em 0em;
+    font-weight: bold;
+}
+
+
+.box-map{
+    width: 90%;
+    height: 40vh;
+    overflow: hidden;
+    margin: auto;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.text-local{
+    font-size: 20px;
+    font-weight: lighter;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin: 0.8em auto;
+}
+
+.link-local{
+    box-sizing: border-box;
+    background-color: var(--verde);
+    width: 80%;
+    text-wrap: nowrap;
+    padding: 1em 0.5em;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    display:block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--branco);
+}

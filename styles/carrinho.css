@@ -1,0 +1,68 @@
+
+
+
+
+.title-carrinho{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.box-list-carrinho{
+    width: 80%;
+    background-color: var(--cor-fundo-secundaria);
+    padding: 1em;
+    border-radius: 30px;
+    height: 50vh;
+    box-sizing: border-box;
+    margin: 1em auto;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--branco);
+    padding:0px 5px 2px 5px;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.item-btn{
+    background: none;
+    border: none;
+    max-width: 40px;
+    text-align: center;
+}
+
+
+.item-btnT{
+    background: url('../assets/carrinho/Trash.svg');
+    background-size: cover;
+    padding: 1em;
+    border: none;
+}
+
+.box-un{
+    display: flex;
+    align-items: center;
+}
+
+.item-btn img{
+    max-width: 100%;
+}
+
+.link-orcamento{
+    display: block;
+    text-align: center;
+    background-color: var(--vermelho);
+    width: 80%;
+    margin: auto;
+    padding: 1em 0em;
+    border-radius: 18px;
+    color: var(--branco);
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}

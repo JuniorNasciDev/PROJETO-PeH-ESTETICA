@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="st  ylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/sobre.css">
+    <link rel="stylesheet" href="../styles/catalogo.css">
+    <title>PeH Acessorios Sobre nós</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="box-nav">
+            <div class="menu-bruguer">
+                <input type="checkbox" id="menu-burguer">
+                <label class="menu-burguer" for="menu-burguer">
+                    <img class="menu-burguer-ico" src="../assets/header/menu-burguer-ico.svg" alt="">
+                </label>
+
+                <div class="menu-open">
+                    <label class="title-menu-burguer" for="menu-burguer">menu</label>
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a class="menu-list-link" href="sobre.html">SOBRE NÓS</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-list-link" href="galeria.html">GALERIA</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-list-link" href="#">CATALOGO DE PRODUTOS</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a class="menu-list-link" href="localizacao.html">LOCALIZAÇÃO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <a class="link-logo" href="../index.html">
+                <div class="box-logo">
+                    <p class="logo-text-title">PeH</p>
+                    <p class="logo-text">Acessórios Automotivos</p>
+                </div>
+            </a>
+            <a href="carrinho.html">
+                <img src="../assets/header/carrinho-icon.svg" alt="carrinho">
+            </a>
+        </div>
+    </header>
+
+    <section class="catalogo">
+
+        <h2 class="title-catalogo">catalogo de produtos</h2>
+        
+        <div class="box-filtro">
+            <div class="box-maiormenor">
+            </div>
+            <select onchange="filtrar()" class="selet-categoria" name="categoria" id="categoria">
+                <option selected value="todosProdutos">todos Produtos</option>
+                <option value="limpeza">limpeza</option>
+                <option value="reforma">Reforma</option>
+            </select>
+        </div>
+        <hr class="line-catalogo">
+        
+        <div class="list-produtos" id="catalogo">
+        </div>
+
+        <button onclick="carregarMais()" class="mais-produto">mais produtos</button>
+
+        <div class="box-quantidade">
+            <div class="box-centraliza">
+                <div class="box-close-quantidade">
+                    <h2 class="title-quantidade">Informe a quantidade</h2>
+                    <button onclick="closeP()">X</button>
+                </div>
+
+                <div class="box-input-quantidade">
+                    <select name="tipo" id="tipo">
+                        <option selected value="un">UN</option>
+                        <option value="cx">CX</option>
+                    </select>
+
+                    <input class="quantidade" type="number">
+                </div>
+                <button class="quantidade-btn" onclick="confirmar()">confirmar</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="../scripts/catalogo.js"></script>
+    <script src="../scripts/orcamento.js"></script>
+</body>
+
+</html>
