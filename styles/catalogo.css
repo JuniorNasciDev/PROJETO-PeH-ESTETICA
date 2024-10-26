@@ -117,7 +117,7 @@
     width: 100%;
     height: 100%;
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: rgba(0, 0, 0, 0.481);
     justify-content: center;
@@ -141,6 +141,7 @@
     text-transform: uppercase;
     text-align: left ;
 }
+
 
 .box-input-quantidade{
     margin-bottom: 1em;
